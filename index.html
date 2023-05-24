@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Admin Q4OS">
+  <meta name="description" content="This is Abinash Dwibedi portfolio">
+  <title> Abhi's Portfolio Website </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: ;
+    }
+
+    /*header {
+   position: fixed;	
+	}*/
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #c0c0c0;
+      padding: ;
+      height: 68px;
+      position: sticky;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .navleft {
+      font-size: 1.4rem;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0vh 0.6vw;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 1vh 1vw;
+
+    }
+
+    a:hover {
+      border-color: none;
+      border-radius: 10px;
+      color: black;
+      background: white;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+
+    .section1 {
+      display: flex;
+      margin: 10vh 0vw;
+    }
+
+    .leftext {
+      height: 50%;
+      width: 50%;
+      /*padding: 2vh 3vw;*/
+      margin: 22vh 10vw;
+      font-size: 1.98rem;
+      color: grey;
+    }
+
+    span {
+      color: black;
+    }
+
+    .rightext {
+      height: 50%;
+      width: 50%;
+      margin:auto;
+    }
+
+    img {
+      width: 37vw;
+      margin-right: 4vw;
+      margin-top: 6vh;
+    }
+
+    #element {
+      margin-top: 3vh;
+    }
+
+    /*hr{
+color: black;
+background:grey;
+height: 0.5vh ;
+width: 100%;
+}*/
+    .section2 {
+      margin: 2vh 0vw 2vh 3vw;
+    }
+
+    .section3 {
+      margin: 2vh 0vw 2vh 3vw;
+    }
+
+    @media screen and (max-width:600px) {
+      .section1 {
+        display: flex;
+        flex-direction:column-reverse;
+      }
+
+      .leftext {
+       /* height: 50%;
+        width: 50%;
+        /* padding: 2vh 3vw; */
+        margin: auto;
+        font-size: 1.45rem;
+        color: grey;
+        padding: 1vh 8vw;
+        height: auto;
+        width:auto;
+      }
+    .navright {
+      
+      margin-right: 4vw;
+    }
+      img {
+        width: 50vw;
+        margin-top: 4vh;
+      }
+      .navleft {
+      margin-left: 2vw;
+
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navleft">Portfolio Website</div>
+      <div class="navright">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="section1">
+        <div class="leftext">
+          <h1>HELLO, Welcome To My Portfolio , My Name is <span>Abinash.</span></h1>
+          <span id="element"></span>
+        </div>
+        <div class="rightext"><img src="img/IMG_20220719_174542-01.jpeg" alt="Abinash"></div>
+      </section>
+      <hr>
+    </main>
+    <footer>
+      <section class="section2">
+        <h1 class="h11">About Me</h1>
+        <h4 class="h22">Name - Abinash Dwibedi</h4>
+        <h4 class="h22">Mobile Number - 8917451848</h4>
+        <h4 class="h22">Adress - Dharmagatpur, Asurali, Bhadrak</h4>
+      </section>
+      <hr>
+      <section class="section3">
+        <p>copyright &copy; Abinash Dwibedi - 2023</p>
+      </section>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Iam a programmer.', 'Iam a designer.', 'Iam a content writer.', 'Iam a graphic designer.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
